@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button"
-import { signIn,config, auth } from "@/auth"
+import { signIn, auth } from "@/auth"
 import { redirect } from "next/navigation"
  
 async function getSession() {
