@@ -1,0 +1,6 @@
+-- AlterTable
+ALTER TABLE "User" ALTER COLUMN "name" SET DEFAULT '',
+ALTER COLUMN "investmentBudget" SET DEFAULT 0,
+ALTER COLUMN "apiKey" SET DEFAULT '',
+ALTER COLUMN "apiSecret" SET DEFAULT '',
+ALTER COLUMN "buyingFrequency" SET DEFAULT 'WEEKLY';
